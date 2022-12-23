@@ -17,9 +17,30 @@
   
 .social-media {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
-  grid-gap: 1rem;
-  row-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-gap: 0.2em;
+  row-gap: 0.2em;
+  margin:10px;
+  justify-items: center;
+  text-align: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+
+.clear{
+clear: both;
+margin-bottom:10px;
 }
 
 </style>
@@ -27,43 +48,51 @@
   
 <body>
 
+<nav>
+<span class:"top-name"></span>
+</nav>
+
+<div class="clear"></div>
+
+
 <div class="social-media">
   
-  <div id="facebook-icon" class="icon">
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png">  </a>
+  <div id="facebook-icon" >
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" class="icon">  </a>
     <div>Two</div>
   </div>
   
-  <div id="instagram-icon" class="icon">
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png">  </a>
+  <div id="instagram-icon">
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png" class="icon">  </a>
   </div>
     
-    <div id="youtube-icon" class="icon">
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/3938/3938037.png">  </a>
+    <div id="youtube-icon">
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/3938/3938037.png" class="icon">  </a>
   </div>
   
-    <div id="blogger-icon" class="icon">
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/3938/3938112.png">  </a>
+    <div id="blogger-icon">
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/3938/3938112.png" class="icon">  </a>
   </div>
   
-    <div id="pinterest-icon" class="icon">
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504932.png">  </a>
+    <div id="pinterest-icon">
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504932.png" class="icon">  </a>
+  </div>
+  
+  
+    <div id="email-icon">
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/9073/9073086.png" class="icon">  </a>
   </div>
   
   <!--
-    <div id="vk-icon" class="icon">
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png">  </a>
+    <div id="facebook-icon">  
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" class="icon">  </a>
   </div>
   
-    <div id="facebook-icon" class="icon">  
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png">  </a>
-  </div>
-  
-     <div id="facebook-icon" class="icon">
-  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png">  </a>
+     <div id="facebook-icon">
+  <a href="#">  <img src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" class="icon">  </a>
   </div>
   -->
-
+</div>
 
   
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
